@@ -1,0 +1,6 @@
+#write a python program that takes two numbers as inputt and prints their sum
+
+a=input("Enter the number 1: ")
+b=input("Enter the number 2: ")
+sum=int(a) +int(b)
+print("sum is:",sum)
