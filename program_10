@@ -1,7 +1,5 @@
 #Write a python program that converts a given string to uppercase.
 
 input_string = input("Enter a string: ")
-
 uppercase_string = input_string.upper()
-
 print("The string in uppercase is:", uppercase_string)
