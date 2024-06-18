@@ -1,0 +1,10 @@
+#Write a program in python that converts a string into a list of its characters.
+def string_to_list(s):
+    return list(s)
+
+s = input("Enter a string: ")
+
+char_list = string_to_list(s)
+
+
+print("The list of characters is:", char_list)

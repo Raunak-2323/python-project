@@ -1,0 +1,19 @@
+#Write a program in python that checks if a string starts with a given prefix or ends with a given suffix.
+
+def check_prefix_suffix(input_string, prefix, suffix):
+    starts_with_prefix = input_string.startswith(prefix)
+    ends_with_suffix = input_string.endswith(suffix)
+
+    return starts_with_prefix, ends_with_suffix
+
+
+input_string = "Hello, World!"
+prefix = "Hello"
+suffix = "World!"
+
+
+starts_with_prefix, ends_with_suffix = check_prefix_suffix(input_string, prefix, suffix)
+
+
+print(f"The string starts with the prefix: {starts_with_prefix}")
+print(f"The string ends with the suffix: {ends_with_suffix}")

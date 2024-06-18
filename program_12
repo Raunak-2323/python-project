@@ -1,0 +1,14 @@
+#Write a python program that calculates the sum of the digits of a given number
+
+def sum_of_digits(number):
+    sum_digits = 0
+    for digit in str(number):
+        sum_digits += int(digit)
+    return sum_digits
+
+number = int(input("Enter a number: "))
+result = sum_of_digits(number)
+print("The sum of the digits of the number is:", result)
+
+   
+
