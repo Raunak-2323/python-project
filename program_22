@@ -1,0 +1,10 @@
+#Write a python program that returns the minimum and maximum values in a list of numbers
+def find_min_max(input_list):
+    minimum = min(input_list)
+    maximum = max(input_list)
+    return minimum, maximum
+
+my_numbers = [10, 5, 20, 15, 8]
+min_value, max_value = find_min_max(my_numbers)
+print("Minimum value in the list:", min_value)
+print("Maximum value in the list:", max_value)

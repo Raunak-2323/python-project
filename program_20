@@ -1,0 +1,7 @@
+#Write a python program that takes a list of numbers and returns their sum.
+def sum_of_list(numbers):
+    return sum(numbers)
+
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+result = sum_of_list(numbers)
+print("The sum of the list is:", result)

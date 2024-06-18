@@ -1,0 +1,8 @@
+#Write a program that reads the content of a text file and prints it to the console
+
+text = input("Enter a string: ")
+
+with open("output.txt", "w") as file:
+    file.write(text)
+
+print("The string has been written to the file 'output.txt'.")

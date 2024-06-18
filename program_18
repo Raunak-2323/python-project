@@ -1,0 +1,7 @@
+#Write a python program that checks if two strings are anagrams of each other.
+
+input_string = input("Enter a string: ")
+
+title_case_string = input_string.title()
+
+print("String in title case:", title_case_string)

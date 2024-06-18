@@ -1,0 +1,15 @@
+#Write a python program that generates the first n numbers in the Fibonacci sequence.
+
+def fibonacci(n):
+    fibonacci_sequence = [0, 1]  
+
+    for i in range(2, n):
+        next_number = fibonacci_sequence[i-1] + fibonacci_sequence[i-2]
+        fibonacci_sequence.append(next_number)
+
+    return fibonacci_sequence[:n]
+
+n = int(input("Enter the value of n to generate the first n Fibonacci numbers: "))
+
+result = fibonacci(n)
+print("The first", n, "numbers in the Fibonacci sequence are:", result)

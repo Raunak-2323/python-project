@@ -1,0 +1,4 @@
+#Write a program that converts temperature from Celsius to Fahrenheit and vice versa based on user input.
+celcius=int(input("Enter a temperature in celcius:"))
+F=(celcius*5/9)+32
+print("Temprature in fareheit is ",F)
