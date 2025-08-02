@@ -1,1 +1,1 @@
-**#Self practice Questions**
+**Self practice Questions**
